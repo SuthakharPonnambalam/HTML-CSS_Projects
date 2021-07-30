@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: 'Itim', cursive;
+    font-size: 17px;
+    color: #0c4a3f;
+    font-weight: bold;
+}
+h1{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    text-shadow:#3cc7a2 1px 0 10px
+}
+
+p{
+   
+    color:#c6bdbc;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#container{
+    background-image: url('beach.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#container .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #0c4a3f;
+    border: 1px solid #0c4a3f;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#container .button:hover{
+    color: #fff;
+    background-color:#0c4a3f ;
+    transform: translateY(-2px);
+    transition: transform 0.5s ease;
+}
+
+#one{
+    padding: 20px;
+    background-color: #0c4a3f;
+    color: #fff;
+    text-align: center;
+}
+#two{
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #0c4a3f;
+    text-align: center;
+}
+
+#three{
+    display: flex;
+}
+
+#three div{
+    padding: 20px;
+}
+
+#three .box1, #three .box3{
+    background-color: #0c4a3f;
+    color: #fff;
+}
+
+#three .box2{
+    background-color: #c6bdbc;
+}
